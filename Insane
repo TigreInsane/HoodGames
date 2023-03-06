@@ -1,0 +1,32 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("JS INSANE", "DarkTheme")
+
+--MAIN TAB
+local Tab = Window:NewTab("Main")
+--MAIN BUTTONS
+local Section = Tab:NewSection("Main")
+Section:NewButton("Spy", "Chat Spy", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/pVYTS8TJ"))()
+end)
+Section:NewButton("Esp", "Spy Players", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ySFJuwEn"))()
+end)
+Section:NewButton("Super Speed", "Speed ANTI SLOW V to On/Off N to reduce the speed and m to get high speed", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/z4gF68s7"))()
+end)
+
+--LOCK TAB
+local Tab = Window:NewTab("Lock")
+--LOCK BUTTONS
+local Section = Tab:NewSection("Lock")
+Section:NewButton("Cam Lock", "Keybind Q to Turn On the Lock", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xv6rbmPh"))()
+end)
+
+--ANTI LOCK TAB
+local Tab = Window:NewTab("Anti Lock")
+--ANTI LOCK BUTTONS
+local Section = Tab:NewSection("Anti Lock")
+Section:NewButton("Multi Anti Lock (NOT MINE)", "Keybinds X, C, V, B, T, to Turn On the Anti Lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tailgater/Fatality/main/StandaloneAntiLock"))()
+end)
