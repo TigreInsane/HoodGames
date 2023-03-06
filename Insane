@@ -22,11 +22,3 @@ local Section = Tab:NewSection("Lock")
 Section:NewButton("Cam Lock", "Keybind Q to Turn On the Lock", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/xv6rbmPh"))()
 end)
-
---ANTI LOCK TAB
-local Tab = Window:NewTab("Anti Lock")
---ANTI LOCK BUTTONS
-local Section = Tab:NewSection("Anti Lock")
-Section:NewButton("Multi Anti Lock (NOT MINE)", "Keybinds X, C, V, B, T, to Turn On the Anti Lock", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tailgater/Fatality/main/StandaloneAntiLock"))()
-end)
